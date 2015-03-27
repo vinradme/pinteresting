@@ -5,5 +5,5 @@ Rails.application.routes.draw do
  
   get "contact" => "pages#contact"
   get "about" => "pages#about"
-  root "pages#home"
+  root "pins#index"
 end
